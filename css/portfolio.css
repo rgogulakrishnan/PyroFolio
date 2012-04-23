@@ -1,0 +1,29 @@
+/**
+ * Portfolio Module
+ *
+ * @author		Gogula Krishnan Rajaprabhu
+ * @package		Netpines
+ * @subpackage	Portfolio Module
+ * @category	Modules
+ * @website		http://netpines.com
+ */
+
+#filter {display: block;height: 39px;margin: 25px 0;position: relative; width: 600px;text-align:left;}
+#filter a{color: #222;display: inline-block;padding: 5px 10px;font:0.9em Helvetica,Arial,sans-serif;}
+#filter a:hover{text-decoration:none;border-bottom:1px solid #888;}
+#filter a.active{background: none repeat scroll 0 0 #888;border-radius: 5px 5px 5px 5px;color: #FFFFFF;}
+#container{display:block;overflow:hidden;margin:0 auto;}
+#container li{float: left;height: 360px;list-style: none outside none;position: relative;width: 244px;}
+#container ul{overflow:hidden;}
+#container ul.hidden{display:none;}
+
+.work-desc-holder {margin:10px 0;overflow:hidden;}
+.work-services-holder {margin-top:20px;}
+.work-screenshots-holder {margin-top:30px;}
+.workblock1 {width:200px;float:left;}
+.workblock2 {width:340px;float:left;margin-left:50px;line-height:22px;font-size:0.95em;font-family: helvetica,arial,sans-serif;color:#221F1F;}
+.workblock3 {width:725px;margin-left:50px;float:left;line-height:22px;font-size:0.95em;font-family: helvetica,arial,sans-serif;color:#221F1F;}
+.workblock4 img{max-width:470px;margin:10px 10px 15px 0;float:left;box-shadow:0 1px 2px rgba(0, 0, 0, 0.1);padding:4px;border:1px solid #ddd;}
+.launch_link {margin-top:10px;font-size:15px;background:url('../img/popup_bg.png') no-repeat 90px 0;width:120px;}
+.launch_link a{color:#555;}
+.launch_link a:hover{text-decoration:underline;color:#333;};

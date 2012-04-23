@@ -1,0 +1,7 @@
+h4. PyroCMS Portfolio Module v0.3
+
+The Portfolio module allows you to showcase the projects i.e web designs, logo designs etc., in a simple, elegant and filterable manner.
+
+h6. Author
+
+* "goGula Krishnan":http://twitter.com/rgogulakrishnan
