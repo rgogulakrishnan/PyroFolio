@@ -155,7 +155,7 @@ class Admin extends Admin_Controller
 		
 		$this->template
 			->title($this->module_details['name'])
-			->append_metadata(js('portfolio.js', 'portfolio'))
+			->append_js('module::portfolio.js')
 			->set('project', $project)
 			->build('admin/form'); 
 	}
@@ -217,7 +217,7 @@ class Admin extends Admin_Controller
 		
 		$this->template
 			->title($this->module_details['name'])
-			->append_metadata(js('portfolio.js', 'portfolio'))
+			->append_js('module::portfolio.js')
 			->set('project', $project)
 			->build('admin/form');
 	}

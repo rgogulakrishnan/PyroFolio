@@ -19,9 +19,9 @@ class Portfolio extends Public_Controller
 		$this->load->model('portfolio/portfolio_m');
 
 		$this->template
-                ->append_metadata( css('portfolio.css', 'portfolio'))
-                ->append_metadata( js('jquery.quicksand.js', 'portfolio'))
-                ->append_metadata( js('portfolio.js', 'portfolio'));
+			->append_css('module::portfolio.css')
+            ->append_js('module::jquery.quicksand.js')
+            ->append_js('module::portfolio.js');
 	}
 
 	public function _remap($method)
